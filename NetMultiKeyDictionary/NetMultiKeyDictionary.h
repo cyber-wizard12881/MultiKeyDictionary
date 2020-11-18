@@ -3,7 +3,13 @@
 using namespace System;
 using namespace System::Collections::Generic;
 
+/// <summary>
+/// Namespace for the .NET Framework Multi-Key Dictionary
+/// </summary>
 namespace NetMultiKeyDictionary {
+	/// <summary>
+	/// The class that represents the .NET Framework Multi-Key Dictionary ... hence the prefix 'N'
+	/// </summary>
 	public ref class NMultiKeyDictionary
 	{
 		Dictionary<String^, Object^> ^primaryDictionary;
