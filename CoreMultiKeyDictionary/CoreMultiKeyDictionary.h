@@ -3,7 +3,13 @@
 using namespace System;
 using namespace System::Collections::Generic;
 
+/// <summary>
+/// Namespace for Multi-Key Dictionary for .NET Core (5.0)
+/// </summary>
 namespace CoreMultiKeyDictionary {
+	/// <summary>
+	/// Class for Multi-Key Dictionary for .NET Core ... hence the prefix 'C'
+	/// </summary>
 	public ref class CMultiKeyDictionary
 	{
 		Dictionary<String^, Object^> ^primaryDictionary;
