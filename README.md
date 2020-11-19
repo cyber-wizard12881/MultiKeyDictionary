@@ -26,7 +26,7 @@ Wow! Isn't that amazing! ... I am sure there's more that you can do with such a 
 
 ## So, How have I implemented this?
 When posed with a task of creating a complex data structure, you need to be clear with the approach. <br>
-My approach is simple an based on the facts below: <br>
+My approach is simple and based on the facts below: <br>
 1. Take in variable number of arguments for forming the Composite or Multi-Key.
 2. Convert them to Strings first.
 3. Concatenate them with commas to get a composite but single unique string.
