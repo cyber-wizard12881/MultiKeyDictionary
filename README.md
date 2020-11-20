@@ -84,14 +84,14 @@ I started this pet project by making use of 3 main things that C++ had to offer 
    mkDictionary.add(3, "Gamma", 4, "Delta");
 ```
 
-*To Remove an Item do the following*
-```
-  mkDictionary.remove("Beta", 3, "Gamma");
-```
-
 *To Fetch an Item do the following*
 ```
-  int val1 = mkDictionary.get("Gamma", 4, "Delta");
+  int val1 = mkDictionary.get("Unity", 0, "Whole");
+```
+
+*To Remove an Item do the following*
+```
+  mkDictionary.remove("Unity", 0, "Whole");
 ```
 
 *To Print the Contents of the Dictionary at any point in time do the following*
@@ -119,14 +119,14 @@ using (var cmkDictionary = new CoreMultiKeyDictionary.CMultiKeyDictionary())
    cmkDictionary.add(1, "Unity", 0, "Whole");
 ```
 
-*To Remove an Item do the following*
-```
-  cmkDictionary.remove("Beta", 3, "Gamma");
-```
-
 *To Fetch an Item do the following*
 ```
-  int? val1 = (int?)cmkDictionary.get("Gamma", 4, "Delta");
+  int? val1 = (int?)cmkDictionary.get("Unity", 0, "Whole");
+```
+
+*To Remove an Item do the following*
+```
+  cmkDictionary.remove("Unity", 0, "Whole");
 ```
 
 *To Print the Contents of the Dictionary at any point in time do the following*
@@ -151,14 +151,14 @@ Note: the add() in all the above examples are upserts()!!
    nmkDictionary.add(1, "Unity", 0, "Whole")
 ```
 
-*To Remove an Item do the following*
-```
-  nmkDictionary.remove("Beta", 3, "Gamma")
-```
-
 *To Fetch an Item do the following*
 ```
-  Dim val1 As Integer? = nmkDictionary.get("Gamma", 4, "Delta")
+  Dim val1 As Integer? = nmkDictionary.get("Unity", 0, "Whole")
+```
+
+*To Remove an Item do the following*
+```
+  nmkDictionary.remove("Unity", 0, "Whole")
 ```
 
 *To Print the Contents of the Dictionary at any point in time do the following*
